@@ -4,7 +4,7 @@ public class StarPattern
     {
         for(int i = 0 ; i < 5 ; i++)
         {
-            for(int j = i ; j >= 5 ; j++)
+            for(int j = 0 ; j <= i ; j++)
             {
                 System.out.print("* ");
             }
