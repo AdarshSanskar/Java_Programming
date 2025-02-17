@@ -18,7 +18,7 @@ public class Pr5_1
         {
             for(int j = 0 ; j < 3 ; j++)
             {
-                System.out.print(+arr[i][j]+" ");
+                System.out.print(arr[i][j]+" ");
             }
             System.out.println();
         }
