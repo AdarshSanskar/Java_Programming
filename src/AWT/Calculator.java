@@ -27,38 +27,47 @@ public class Calculator extends JFrame
         button_1.setFont(new Font("SansSerif",Font.BOLD,20));
         button_1.setBackground(Color.decode("#323232"));
         button_1.setForeground(Color.WHITE);
+
         JButton button_2 = new JButton(" 2 ");
         button_2.setFont(new Font("SansSerif",Font.BOLD,20));
         button_2.setBackground(Color.decode("#323232"));
         button_2.setForeground(Color.WHITE);
+
         JButton button_3 = new JButton(" 3 ");
         button_3.setFont(new Font("SansSerif",Font.BOLD,20));
         button_3.setBackground(Color.decode("#323232"));
         button_3.setForeground(Color.WHITE);
+
         JButton button_4 = new JButton(" 4 ");
         button_4.setFont(new Font("SansSerif",Font.BOLD,20));
         button_4.setBackground(Color.decode("#323232"));
         button_4.setForeground(Color.WHITE);
+
         JButton button_5 = new JButton(" 5 ");
         button_5.setFont(new Font("SansSerif",Font.BOLD,20));
         button_5.setBackground(Color.decode("#323232"));
         button_5.setForeground(Color.WHITE);
+
         JButton button_6 = new JButton(" 6 ");
         button_6.setFont(new Font("SansSerif",Font.BOLD,20));
         button_6.setBackground(Color.decode("#323232"));
         button_6.setForeground(Color.WHITE);
+
         JButton button_7 = new JButton(" 7 ");
         button_7.setFont(new Font("SansSerif",Font.BOLD,20));
         button_7.setBackground(Color.decode("#323232"));
         button_7.setForeground(Color.WHITE);
+
         JButton button_8 = new JButton(" 8 ");
         button_8.setFont(new Font("SansSerif",Font.BOLD,20));
         button_8.setBackground(Color.decode("#323232"));
         button_8.setForeground(Color.WHITE);
+
         JButton button_9 = new JButton(" 9 ");
         button_9.setFont(new Font("SansSerif",Font.BOLD,20));
         button_9.setBackground(Color.decode("#323232"));
         button_9.setForeground(Color.WHITE);
+
         JButton button_0 = new JButton(" 0 ");
         button_0.setFont(new Font("SansSerif",Font.BOLD,20));
         button_0.setBackground(Color.decode("#323232"));
