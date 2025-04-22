@@ -1,6 +1,6 @@
 package JavaPracticals;
 // Write a Program to Evaluate different types of expressions
-public class Pr1 {
+public class Pr2 {
     public static void main(String[] args) {
         int a = 10, b = 20, c;
         c = a + b;
