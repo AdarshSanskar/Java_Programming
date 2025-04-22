@@ -1,5 +1,5 @@
 package JavaPracticals;
-// Write a Program to Evaluate different types of expressions
+//Practical No. 2: Write a Program to Evaluate different types of expressions
 public class Pr2 {
     public static void main(String[] args) {
         int a = 10, b = 20, c;
