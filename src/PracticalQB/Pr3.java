@@ -1,19 +1,19 @@
 package PracticalQB;
 //Question No. 3: Develop a program for implementation of different types of constructors.
 import java.util.*;
-class Student{
+class Students{
     int id;
     String name;
 
-    Student(){
+    Students(){
         id = 1424;
         name = "Adarsh";
     }
-    Student(int i, String n){
+    Students(int i, String n){
         id = i;
         name = n;
     }
-    Student(Student s){
+    Students(Students s){
         id = s.id;
         name = s.name;
     }
@@ -25,9 +25,9 @@ class Student{
 public class Pr3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Student stud1 = new Student();
-        Student stud2 = new Student(2414, "Sanskar");
-        Student stud3 = new Student(stud2);
+        Students stud1 = new Students();
+        Students stud2 = new Students(2414, "Sanskar");
+        Students stud3 = new Students(stud2);
         System.out.println("\nStudent 1 : ");
         stud1.display();
         System.out.println("\nStudent 2 : ");
