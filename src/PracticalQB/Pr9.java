@@ -13,7 +13,6 @@ class EvenThread extends Thread {
         }
     }
 }
-
 class OddThread extends Thread {
     public void run() {
         try {
