@@ -12,9 +12,11 @@ public class Pr7 {
         try {
             result = a / b;
             System.out.println("Result = " + result);
-        } catch (ArithmeticException e) {
+        }
+        catch (ArithmeticException e) {
             System.out.println("Exception: Cannot divide by zero");
-        } finally {
+        }
+        finally {
             System.out.println("Program Executed");
         }
     }
